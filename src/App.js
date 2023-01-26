@@ -1,12 +1,12 @@
 import './App.css';
-import Board from './components/board/board';
+import ThreeInARow from './components/threeinarow/threeinarow';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <p> Three in A Row</p>
-        <Board />
+        <ThreeInARow />
         
       </header>
     </div>

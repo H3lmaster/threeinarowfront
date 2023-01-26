@@ -6,14 +6,7 @@
   padding: 10px;
 }
 
-.board-row:after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
 .square {
-  background: #fff;
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
