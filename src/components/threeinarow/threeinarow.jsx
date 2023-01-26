@@ -33,6 +33,9 @@ class ThreeInARow extends React.Component{
 
         const results = await response.json();
         let result = results.currentPlayerWon? "The player " + this.state.nextPlayer + " is the winner" : "";
+        if ( results.draw ) {
+            result = "Game over, Draw";
+        } 
 
         this.setState({
             board: board,
