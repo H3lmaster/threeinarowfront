@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.square {
+  background: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 154px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 200px;
+}
